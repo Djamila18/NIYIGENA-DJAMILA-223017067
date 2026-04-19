@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+.header {
+    background-color: rgb(24, 58, 230);
+    padding: 10px;
+    
+}
+.sidebar {
+    background-color: rgb(247, 255, 3);
+    padding: 5px;
+   
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .2fr 1fr;
+}
+.content {
+    display: grid;
+    grid-template-columns: .3fr 1fr;
+    height: 100vh;
+}
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+.image-one {
+    width: 400px;
+    margin-top: 1rem;
+}
+.main {
+    padding-left: 2rem;
+}
